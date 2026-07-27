@@ -12,7 +12,7 @@ body {
 }
 
 .navbar {
-    background-color: #c82423;
+    background-color: #b9de35;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +51,7 @@ body {
     left: -220px;
     width: 200px;
     height: 100vh;
-    background: #c82423;
+    background: #20d5cf;
     flex-direction: column;
     padding-top: 80px;
     gap: 1.5rem;
@@ -103,7 +103,7 @@ body {
 .intro h2 {
     font-size: 2rem;
     margin-bottom: 1.5rem;
-    color: #c82423;
+    color: #9123c8;
 }
 
 .btn-group {
@@ -158,6 +158,6 @@ body {
 }
 
 .card h3 {
-    color: #c82423;
+    color: #23c84c;
     margin-bottom: 1rem;
 }
