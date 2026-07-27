@@ -79,7 +79,7 @@ body {
 
 .banner {
     height: 60vh;
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url();
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://static.ffx.io/images/$zoom_1%2C$multiply_0.2955%2C$ratio_1.777778%2C$width_1976%2C$x_24%2C$y_92/t_crop_custom/q_86%2Cf_auto/bd1872668aa27f1e5f5a1dba49b7ab063976f02b) no-repeat center;
     background-size: cover;
     display: flex;
     align-items: center;
