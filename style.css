@@ -28,21 +28,53 @@ body {
     font-weight: bold;
 }
 
-.nav-list {
+.hamburger {
     display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    z-index: 100;
+}
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    border-radius: 2px;
+}
+
+.nav-list {
+    position: fixed;
+    top: 0;
+    left: -220px;
+    width: 200px;
+    height: 100vh;
+    background: #c82423;
+    flex-direction: column;
+    padding-top: 80px;
+    gap: 1.5rem;
+    transition: left 0.3s ease;
     list-style: none;
-    gap: 2rem;
 }
 
+.nav-list.show {
+    left: 0;
+}
 .nav-list a {
-    color: #fff;
+    color: white;
     text-decoration: none;
-    font-size: 1rem;
-    padding: 0.5rem;
+    padding-left: 30px;
+    display: block;
+}
+.nav-list a.active {
+    border-left: 3px solid #ffd700;
 }
 
-.nav-list a.active {
-    border-bottom: 2px solid #ffd700;
+.navbar {
+    position: relative;
+    padding-left: 80px;
 }
 
 .banner {
