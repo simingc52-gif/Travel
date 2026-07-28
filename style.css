@@ -169,3 +169,31 @@ body {
     border-radius: 6px;
     margin-bottom: 1rem;
 }
+
+.page-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    padding: 20px 5%;
+    max-width: 1000px;
+}
+
+.page-btn {
+    background-color: #c82423;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.page-btn:hover {
+    background-color: #f1921e;
+}
+
+.page-btn.disabled {
+    background-color: #999;
+    pointer-events: none;
+    cursor: default;
+}
