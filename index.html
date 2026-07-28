@@ -16,8 +16,8 @@
             </div>
             <ul class="nav-list" id="navMenu">
                 <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="food.html">Food</a></li>
-                <li><a href="scenery.html">Scenery</a></li>
+                <li><a href="food.html">Signature Dishes</a></li>
+                <li><a href="scenery.html">Beautiful Scenery</a></li>
              </ul>
         </nav>
         <header class="banner">
@@ -30,9 +30,15 @@
             <h2>Vast China—a land of a hundred flavors.</h2>
             <p>China is a vast land offering a myriad of regional flavors and magnificent landscapes—from rolling mountain ranges to majestic rivers, lakes, and seas. Join us as we explore local culinary specialties and visit viral natural landmarks, immersing you in a unique blend of Eastern romance and the vibrant, authentic atmosphere of everyday life.</p>
             <div class="btn-group">
-                <a href="food.html" class="btn">Food</a>
-                <a href="scenery.html" class="btn">Scenery</a>
+                <a href="food.html" class="btn">Signature Dishes</a>
+                <a href="scenery.html" class="btn">Beautiful Scenery</a>
             </div>
         </section>
+        <script>
+            const hamburger = document.getElementById('hamburger');
+            const navMenu = document.getElementById('navMenu');
+            hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('show');});
+        </script>
     </body>
 </html>
