@@ -1,4 +1,65 @@
 <!DOCTYPE html>
-<html>
-    
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Beautiful Scenery in China</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo">China-The place I want to travel to</div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-list" id="navMenu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="food.html">Signature Dishes</a></li>
+                <li><a href="scenery.html">Beautiful Scenery</a></li>
+             </ul>
+        </nav>
+        <section class="page-title">
+            <h2>A Bite of China</h2>
+        </section>
+
+        <div class="card-container">
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR20L0CmgS0uXALCR1dFOUiP7Ao7FCl-KCTuTk4Pe4MhFTqAd8b_WahBGrd&s=10" class="card-img">
+            <h3>四川火锅(Sichuan hot pot)</h3>
+            <p>Spicy, numbing, and savory, with bubbling red chili oil—tripe and duck intestine are the soul of the dish, embodying the vibrant, bustling spirit of Bashu cuisine.</p>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyuLFLN-eFoM8txWF9BQBHF7xj2qQ7wGOJFFzPHaoXnrKwWXBU-2CzOGE&s=10" class="card-img">
+            <h3>广式早茶(Cantonese Dim Sum)</h3>
+            <p>Shrimp dumplings, siu mai, and rice noodle rolls—light, fresh, and sweet—embodying the flavors of Lingnan’s unhurried lifestyle.</p>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiOCWTWNWsLKo930nOOzXCzsUmwyjfIkB9ayfovWYGRcE1_wDbZHyJrJ0&s=10" class="card-img">
+            <h3>西湖醋鱼(West Lake Fish With Vinegar Sauce)</h3>
+            <p>A classic Hangzhou dish featuring a delightful balance of sweet and sour flavors—an exquisite taste characteristic of the Jiangnan water towns.</p>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr2foCDV4CtDM4adlOaCbu5lKv8z8XWFAo3PRcX5dEjLMailQ8wvjKi4oR&s=10" class="card-img">
+            <h3>北京烤鸭(Beijing Roast Duck)</h3>
+            <p>Crispy skin and tender meat—a world-renowned signature delicacy of Beijing, enjoyed by wrapping the meat in pancakes and dipping it in sauce.</p>
+        </div>
+        <div class="card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrcR3CbY1dZPur9NM2QfX4AnikdEcwM_7p7qKmmkdEpUHFBtWwz5tNrWzr&s=10" class="card-img">
+            <h3>佛跳墙(Buddha Jumps Over the Wall)</h3>
+            <p>The broth is rich, velvety, and full-bodied—savory and mellow with a lingering sweetness that never cloys. The sea cucumber is springy and tender, the abalone firm, and the umami of various mountain delicacies melds together in a harmonious, soothing, and enduring flavor that grows more delightful with every taste.</p>
+        </div>
+        </div>
+        <script>
+            const hamburger = document.getElementById('hamburger');
+            const navMenu = document.getElementById('navMenu');
+            hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('show');});
+        </script>
+        <div class="page-nav">
+            <a href="food.html" class="page-btn">← Previous</a>
+            <a href="#" class="page-btn">Next →</a>
+        </div>
+    </body>
 </html>
