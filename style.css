@@ -164,7 +164,7 @@ body {
 
 .card-img{
     width: 100%;
-    height: 230px;
+    height: 260px;
     object-fit: cover;
     border-radius: 6px;
     margin-bottom: 1rem;
@@ -200,7 +200,7 @@ body {
 
 .flip-card {
     width: 100%;
-    height: 230px;
+    height: 260px;
     perspective: 1000px;
 }
 
